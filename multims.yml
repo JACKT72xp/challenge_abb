@@ -1,0 +1,13 @@
+kubernetesContext: mi-cuenta-publica-context
+registryOrDocker: DockerHub
+registry: ""
+technology: Python
+namespace: local
+useDefaultKubeConfig: true
+kubeConfigPath: /Users/jacktorpoco/.kube/config
+uid: 03f57369-8c7f-45a2-b14c-43cda86db7f2
+appName: challenge_abb
+application:
+  start_run: python app.py
+  port: 5000
+multiservices: []
